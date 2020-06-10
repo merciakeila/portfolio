@@ -1,0 +1,14 @@
+// Buttons
+.btn {
+    a {
+    @include btn-link;
+    width: 100%;
+    padding: 15px 26px;
+    background-color: $black;
+    border-radius: 4px;
+    &:hover {
+        background-color: $black-middle;
+        transition: .7s;
+    }
+    }
+}

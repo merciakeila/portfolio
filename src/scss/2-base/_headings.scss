@@ -1,0 +1,42 @@
+
+/*### Headers ###*/
+
+h1 {
+   @include headers (40);    
+}
+
+.logo h1 {
+    @include headers (22);
+}
+
+h2 {
+   @include headers (23);    
+}
+
+/*### Paragraph ###*/
+
+p {
+    @include p (14); 
+}
+
+
+/*### Grids ###*/
+
+.container {
+    @include container; 
+}
+
+.container-fluid {
+    @include container-fluid;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 800px) { 
+
+    h2 {
+        @include headers (21);
+    }
+
+}
+

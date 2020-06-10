@@ -1,0 +1,107 @@
+/*### Typography ###*/
+@mixin poppins {
+font-family: 'Poppins', sans-serif;
+}
+
+/*### Headers ###*/
+
+// H1
+@mixin headers ($size) {
+color: $black;
+@include poppins;
+@if $size == 40 {
+font-size: 40px;
+font-weight: 600;
+line-height: 64px;
+}
+
+
+// Logo
+@else if $size == 22 {
+font-size: 22px;
+}
+
+// H2
+@else if $size == 23 {
+font-size: 23px;
+font-weight: 500;
+}
+
+// H2 - Contact
+@else if $size == 30 {
+font-size: 30px;
+font-weight: 700;
+}
+
+// H2 - mobile
+@else if $size == 21 {
+font-size: 21px;
+font-weight: 500;
+}
+
+}
+
+/*### Paragraph ###*/
+
+@mixin p ($size) {
+color: $black-middle;
+@if $size == 14 {
+font-size: 14px;
+line-height: 32px;
+@include poppins; 
+margin: 20px 0;
+margin-bottom: 30px;
+}
+
+// p - mobile
+@else if $size == 23 {
+font-size: 23px;
+}
+}
+
+/*### Links ###*/
+@mixin link-header  {
+color: $black;
+@include poppins;
+font-size: 22px;
+font-weight: 700;
+} 
+
+@mixin btn-link {
+color: $white;
+@include poppins;
+font-size: 14px;
+font-weight: 600;
+}
+
+/*### Grids ###*/
+
+
+@mixin container-fluid {
+flex-wrap: wrap;
+margin: 0 auto;
+width: 980px;
+}
+
+
+@mixin container {
+flex-wrap: wrap;
+margin-left: auto;
+display: flex;
+justify-content: space-between;
+padding: 0 30px;
+align-items: center;
+margin-right: auto;
+max-width: 980px;
+}
+
+
+
+
+
+
+
+
+
+
+
