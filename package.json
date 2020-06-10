@@ -1,5 +1,5 @@
 {
-  "name": "Mércia Keila",
+  "name": "webpack",
   "version": "2.0.0",
   "description": "Portfolio",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "start": "webpack-dev-server --open  --mode=development",
     "deploy": "./node_modules/.bin/gh-pages -d build"
   },
-  "author": "Mércia Keila",
+  "author": "Mercia Keila",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.2.0",
