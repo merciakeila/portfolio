@@ -6,7 +6,7 @@
 
 :woman_technologist: <strong>I'm desenvolvedora frontend & UI!</strong>
 
-:page_with_curl: **Trabalhando com agências e novas startups, projetando experiência como desenvolvedora front-end e UI Designer, equilibrando as metas do negócio com o usuário. Gosto de trabalhar com empresas que têm design, UX e processos predefinidos como uma parte importante da entrega. Atualmente, trabalhando com tecnologias JS, Reactjs e Typescript.**
+:page_with_curl: **Working with agencies and new startups, designing experience as a front-end developer and UI Designer, balancing as business goals with the user. I enjoy working with companies that have design, UX and predefined processes as an important part of delivery. Currently working with JS, Reactjs and Typescript technologies.**
 
 
 ## Languages and Technologies I use daily
