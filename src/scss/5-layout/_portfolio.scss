@@ -1,19 +1,81 @@
+.container-fluid-portfolio {
+    max-width: 1440px;
+    flex-wrap: wrap;
+}
+
 .portfolio {
     display: flex;
     background-color: $white-middle;
-    ul {
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.js-tabs .tab {
+    display: inline-block;
+    padding: .5em;
+    vertical-align: top;
+    cursor: hand;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+
+    font-size: 20px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    @include poppins;
+    margin: 0 10px;
+}
+.js-tabs .tab:focus {
+    outline:0;
+}
+.js-tabs .tab:hover {
+    background-color: $white-middle;
+}
+.js-tabs .tab.active {
+    background-color: $black;
+    //border-bottom: .3em solid $white-middle;
+    cursor: default;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    @include poppins;
+}
+
+.js-tabs .panels {
+    background-color: $white-middle;
+    padding: .5em;
+}
+
+.js-tabs .panel {
+    display: none;
+}
+.js-tabs .panel.active {
+    display: block;
+}
+
+#starks-panel, #lannisters-panel {
+     ul {
         display: flex;
         flex-wrap: wrap;
-        margin: 40px 0;
     }
     li {
-        flex: 1 1 250px;
+        flex: 1 1 400px;
         margin: 20px 10px;
     }
 
     a img:hover {
         -webkit-filter: grayscale(20%);
-    transition: 1s;
+        transition: 1s;
     }
 
     img {
